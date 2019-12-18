@@ -1,0 +1,110 @@
+body {
+    padding: 20px;
+   /* background-image: linear-gradient(0deg, #FFF, #eea4e2);*/
+   background: linear-gradient(110deg, #fd81b5 60%, #eea4e2 60%);
+   text-align: center;
+    }
+  p{
+    font-size: 30px;
+    color: #ac028f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  h2{
+    font-size: 20px;
+    color: #fd81b5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #butn {
+    margin-top: 10px;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: salmon;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: none;
+  }
+  #butn:hover {
+    background: rgb(241, 223, 215);
+  }
+
+  #sub  {
+    margin-top: 10px;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 10px 30px;
+    font-size: 30px;
+    border:  3px solid #D358F7;
+    border-radius: 5%;
+    margin-right: 5px;
+    color: #FFF;
+    background: #D358F7;
+    
+  }
+  #num{
+    margin-top: 10px;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 10px 50px;
+    font-size: 20px;
+    border-color: #D358F7;
+    border-radius: 10px;
+    margin-right: 5px;
+    color: #eea4e2;
+    
+  }
+  ::placeholder {
+    color:#D358F7 ;
+    opacity: 0.3; /* Firefox */
+  }
+
+  .knockout {
+	
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size:50pt;
+    color: blue;
+    color: #fff;
+    background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #88d8b0 34%);
+    background-size: 400%;
+     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  .knockout{
+		animation: Gradient 5s ease infinite;
+
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 30% 50%
+	}
+	50% {
+		background-position: 25% 50%
+	}
+	100% {
+		background-position: 30% 50%
+	}
+	
+}
+
+
+
+
+.bot{
+
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  color: linear-gradient(to right, #CE5937 0%, #A41A87 54%, #C59237 100%);
+  color: #DB106B;
+
+}
